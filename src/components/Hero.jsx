@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="mx-auto max-w-2xl">
         <div className="mb-6">
           <img
-            src="/hero-photo.png"
+            src={`${import.meta.env.BASE_URL}hero-photo.png`}
             alt="Janaki Putheth"
             className="mx-auto h-40 w-40 rounded-full object-cover object-[center_22%] shadow-soft-lg border-4 border-sage sm:h-48 sm:w-48"
           />
